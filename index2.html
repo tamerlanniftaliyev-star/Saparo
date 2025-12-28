@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #f0f0f0;
+
+        }
+
+        input {
+            width: 183px;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="Myinput" placeholder="Məhsulun nömrəsini qeyd edin.">
+    <button onclick="salam()">Bitdi</button>
+    <script>
+        function salam() {
+            var x = document.getElementById("Myinput").value;
+
+            if (x === "156") {
+                window.location = "index3.html";
+            }
+            else if (x === "128") {
+                window.location = "index4.html";
+            }
+            else if (x === "114") {
+                window.location = "index5.html";
+            }
+            else if (x === "203") {
+                window.location = "index6.html";
+            }
+            else {
+                alert("Zəhmət olmasa düzgün nömrəni daxil edin.");
+            }
+        }
+    </script>
+    <ul>
+        <li>Qırmızı rəng: 156</li>
+        <li>Yaşıl rəng: 128</li>
+        <li>Mavi rəng: 114</li>
+        <li>Çəhrayı rəng: 203</li>
+    </ul>
+    <b>Diqqət!</b>
+    <p>Yuxarıdakı məlumatlar qolbağın rənginin koduna aiddir. Hansı rəngdə qolbaq almaq istəyirsinizdə, o kodu yazın.
+    </p>
+</body>
+
+</html>

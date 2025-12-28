@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mehsullar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px grey;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #002a6e;
+    padding: 10px;
+}
+
+.header a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.Bölmə {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Bölmə p {
+    text-align: right;
+    padding: 10px;
+}
+
+.mehsul1 img {
+    border-radius: 10px;
+}
+
+.mehsul1 {
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    height: 100%;
+    box-shadow: 0px 0px 10px gray;
+    border: 1px solid grey;
+}
+
+.mehsul1 p {
+    font-size: 20px;
+}
+
+.header a:hover {
+    background-color: #11017a;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.Bölmə h1 {
+    padding: 10px;
+}
